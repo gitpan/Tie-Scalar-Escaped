@@ -1,0 +1,26 @@
+Tie/Scalar/Escaped version 0.01
+===============================
+
+At FETCH time, some transformations are performed
+on the data in the scalar so it is expanded to only
+include characters in [0-9a-z%].
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+"pure perl"
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 David Nicol, public domain.
+
+
